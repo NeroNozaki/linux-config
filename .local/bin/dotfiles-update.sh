@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Sync home into .dotfiles (add more rsync lines below for other directories like .local/share, .zshrc, etc.)
+# Sync home into .dotfiles 
 rsync -av --delete \
    --filter='merge /home/pretzels/.dotfiles-filter.txt' \
    ~/ ~/.dotfiles

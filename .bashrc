@@ -98,6 +98,11 @@ if [ -f ~/.bash_functions ]; then
     . ~/.bash_functions
 fi
 
+# load custom bash profile
+# if [ -f ~/.bash_profile ]; then
+#     . ~/.bash_profile
+# fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -110,4 +115,7 @@ if ! shopt -oq posix; then
 fi
 
 eval "$(starship init bash)"
+export PATH=$PATH:"~/.zig/zig"
+export PATH=$PATH:"~/.zig/zls/zig-out/bin"
+export PATH=$PATH:"/mnt/HD/random-software/"
 

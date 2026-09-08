@@ -25,5 +25,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-export PATH=$PATH:/opt/linux-wallpaperengine
-export PATH=$PATH:~/linux-wallpaperengine/build/output/
+# export PATH=$PATH:/opt/linux-wallpaperengine
+# export PATH=$PATH:~/linux-wallpaperengine/build/output/
+export PATH=$PATH:"~/.zig"

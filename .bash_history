@@ -1,1300 +1,2000 @@
-sudo xed /etc/default/grub
-sudo update-grub
-reboot
-sudo apt install wmctrl
-[200~nano ~/.local/bin/settings-toggle.sh
-~nano ~/.local/bin/settings-toggle.sh
-nano ~/.local/bin/settings-toggle.sh
-mkdir -p ~/.local/bin
-nano ~/.local/bin/settings-toggle.sh
-chmod +x ~/.local/bin/settings-toggle.sh
-sudo apt install librewolf
-sudo add-apt-repository ppa:librewolf-community/ppa
-sudo apt update
-sudo apt list --upgradable
-sudo apt install software-properties-common
-sudo apt update
-sudo apt install librewolf
-sudo add-apt-repository ppa:librewolf-community/ppa
-sudo apt update && sudo apt install extrepo -y
-sudo extrepo enable librewolf && sudo extrepo update librewolf
-sudo apt update && sudo apt install librewolf -y
-librewolf
-restart
-reboot
-sudo apt install vlc
-sudo install vlc
-chmod +x ~/bin/terminal-toggle.sh
-chmod +x ~//home/pretzels/.local/bin/terminal-toggle.sh
-$ chmod +x ~/home/pretzels/.local/bin/terminal-toggle.sh
-chmod +x ~/home/pretzels/.local/bin/terminal-toggle.sh
-chmod +x ~.local/bin/terminal-toggle.sh
-nano ~/bin/terminal-toggle.sh
-chmod +x ~/bin/terminal-toggle.sh
-nano ~/bin/terminal-toggle.sh
-chmod +x ~/.local/bin/terminal-toggle.sh
-nano ~.local/bin/terminal-toggle.sh
-chmod +x ~/.local/bin/terminal-toggle.sh
-penis
-wmctrl -lx | grep -i terminal
-wmctrl -lx
-system settings
-vulkaninfo
-flatpak list
-sudo dpkg --add-architecture i386
-sudo apt update
-sudo apt install libc6:i386 libstdc++6:i386
-lsblk -f
-sudo umount /dev/sda1
-sudo mkfs.ext4 /dev/sda1
-ls -ld /mnt/HD
-steam
-sudo tune2fs -l /dev/sda1 | grep 'Reserved block count'
-lsblk -f
-sudo tune2fs -m 0 /dev/sda1
-lsblk -f
-gsettings set org.nemo.preferences show-file-extensions true
-cd ~
-pwd
-ls
-cd ~/downloads
-cd ~/Downloads
-ls
-rm nemo-mediainfo-tab_1.0.4_all.deb
-ls
+git add .
+git commit -m "added zig directory and re organized a bunch of files"
+git push
+git pull
+git status
+git pull
+git merge
+git commit -m "merging remote and local"
+git push
+cd 
+vim .bash_aliases
+cd - && vim kitty.conf
+cd .. && vim .bash_aliases
 cd
-pwd
-ls -a
-cd .local
-pwd
-cd bin
+vim .bash_aliases
+rm -rf test/
+zit build -O ReleaseFast
+zig build -O ReleaseFast
+zig build -O ReleaseFast numbers.zig
+zig build numbers.zig
+zig build run numbers.zig
+cd zigging
+zig build -O ReleaseFast numbers.zig
+zig build run numbers.zig
+zig init
+zig build -O ReleaseFast
+zig build --help
+zig build -Doptimize=ReleaseFast
+zig build -Doptimize=ReleaseSmall --strip
+zig build -h | strip
+zig build -h | grep strip
+zig build -h | grep debug
+zig build -Doptimize=ReleaseSmall
+./zig-out/bin/zigging 
+rm -rf build.zig build.zig.zon src/ .zig-cache/ zig-out/
+zig run numbers.zig 
+cd ../ziglings/
+zig build
+zig build run
+zig run
+zig build
+zig build exercises/036_enums2.zig 
+zig build
+zig init
+./wc hello how are you
+cd ../..
+zig build --help
+cd ../../..
+git status
+git add .
+git commit -m "created a program that replicates the wc binary in zig! i think it's pretty coooool"
+git push
+xmod
+vim .bash_aliases
+reload
+smod
+xmod
+vim .bash_aliases
 ls
-cat settings-toggle.sh
-echo $PATH
-cd ~
-echo $PATH
-./settings-toggle.sh
-cd .local/bin
-./settings-toggle.sh
-settings-toggle.sh
-cd
-ls -a
-nano .bashrc
-.bashrc
-dpkg -l | grep -i fcitx
-sudo apt --purge *fcitx* *fcitx*
-sudo apt remove --purge *fcitx* *fcitx*
-sudo apt autoremove
-sudo apt autoclean
-sudo apt update $$ apt upgrade
-sudo apt update && apt upgrade
-reboot
-steam
-ping 8.8.8.8
-iwconfig
-sudo iwconfig vicbarr power off
-sudo iwconfig wlo1 power off
-iwconfig wlo1
-sudo apt install notion
-sudo apt remove *notion* *notion*
-sudo apt autoremove
-sudo apt autoclean
-flatpak install flathub notion-app
-sudo dpkg -i notion-app*.deb
-sudo apt update
-sudo apt install flatpak
-chmod +x /home/pretzels/Downloads/Notion-2.0.18-1.AppImage
-sudo apt install fastfetcher
-sudo apt install fastfetch
-sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
-sudo apt update
-sudo apt install fastfetch
-fastfetch
-sudo apt install htop
-sudo apt autoclean
-sudo apt autoremove
-sudo apt upgrade
-htop
-sudo apt install htop
-htop
-chmod +x Notion-2.0.18-1.AppImage
-chmod +x /home/pretzels/Downloads/Notion-2.0.18-1.AppImage
-fastfetch
-xed .bashrc
-xed .bash_aliases
-. .bashrc 
-source .bashrc
-xed bash_aliases
-ls
-ls -a
-xed .bash_aliases 
-source .bash_aliases
-rm .bash_aliases 
-nano .bash_aliases
-source .bashrc
-aptup
-rm .bash_aliases
 ll
-tldr ls
-sudo apt install tealdeer
-tldr ls
-tldr --show-paths
-cd .config/tealdeer/
-cd ~/.config/tealdeer/
-cd ~/.config/tealdeer
-cd /home/pretzels/.config/tealdeer
-tldr --update
-cd /home/pretzels/.cache/tealdeer
-ls -alh
-cd
-tldr --update
-tldr --update --language en
-tldr --version
-sudo apt install --reinstall tealdeer
-tldr ls
-sudo apt install cargo
-rm -rf ~/.cache/tealdeer/*
-tldr -L en -u
-tldr --version
-locale | grep LANG
-tldr -u
-tldr --update --language en
-rm tldr
-sudo apt remove tldr
-man ls
-ls -lah
-xed .bash_aliases
-source .bashrc
-test
-ls -lah
-nano .bash_aliases 
-source .bashrc
-nano .bash_aliases 
-source .bashrc
-xed .bash_aliases
-clear
-echo "hello"
-nano .bash_aliases
-source .bash_aliases
-source .bashrc
-test
-cat .bash_aliases
-nano .bash_aliases 
-source .bashrc
-nano .bash_aliases 
-source .bashrc
-nano .bash_aliases 
-source .bashrc
-xed .bash_aliases
-source .bashrc
-cat -vet ~/.bash_aliases
-mv .bash_aliases ~/.bash_aliases1
-ls -lah
-source .bashrc
-mv .bash_aliases1 ~/.bash_aliases.bak
-ls -lah
-source .bashrc
-nano .bashrc
-source .bashrc
-ls -lah
-mv .bash_aliases.bak .bash_aliases
-ls -a
-source .bashrc
-test
-nano .bash_aliases
-. .bashrc
-source .bashrc
-nano .bash_aliases
-source .bashrc
-test
-cat -vet ~/.bash_aliases
-source .bashrc
-alias | grep test
-mv .bash_aliases .bash_aliases.bak
-. .bashrc
-mv .bash_aliases.bak .bash_aliases
-. .bashrc
-test
-ssh
-ssh 2220
-ssh bandit.labs.overthewire.org
-ssh ssh://[banditO@]bandit.labs.overthewire.org[:2220]
-ssh://[banditO@]bandit.labs.overthewire.org[:2220]
-ssh [banditO@]bandit.labs.overthewire.org
-clear
-man ssh
-ssh banditO@bandit.labs.overthewire.org
-man ssh
-ssh banditO@bandit.labs.overthewire.org -p 2220
-ls
-cd Documents/
-ls
-mkdir banditwar
-ls
-cd banditwar/
-nano passwords.txt
-ls
-touch passwords.txt
-ls
-cd /bin/
-pwd
-ls -al
-clear
-cat ls
-clear
-nano ls
-xed ls
-cd 
-cd Pictures/Imagens\ Salvas/
-ls
-cat Asriel foto de perfil.png
-cat "Asriel foto de perfil.png"
-clear
-cd
-man hexdump
-cd /bin
-hexdump ls
-hexdump -C | touch ~/Desktop/ls_hexdump.txt
-hexdump -C ls | touch ~/Desktop/ls_hexdump.txt
-hexdump -C ls > ~/Desktop/ls_hexdump.txt 
-ls -al
-touch .bash_functions
-nano .bash_functions 
-nano .bashrc
-source .bashrc
-ls -al
-nano .bashrc 
-source .bashrc
-nano .bashrc 
-source .bashrc
-bandit
-man if
-man -f
-ls
-cd Documents/
-ls
-cd banditwar/
-ls
-mv passwords.txt bandit1_password
-ls
-bandit 1 "cat /home/bandit0/readme" > bandit1_password 
-bandit 0 "cat /home/bandit0/readme" > bandit1_password 
-ssh -p 2220 banditO@bandit.labs.overthewire.org
-ssh -p 2220 bandit0@bandit.labs.overthewire.org
-bandit 0
-source .bashrc
-bandit 0
-bandit
-clear
-bandit 1
-bandit 2
-bandit 3
-bandit 4
-bandit 5
-find -- *
-bandit 5
-bandit 6
-bandit 0
-bandit 1
-bandit 6
-bandit 7
-bandit 8
-cd Documents/banditwar/
-nano bandit1_password 
-rm bandit1_password 
-nano bandit1_password
-nano bandit2_password
-mv bandit1_password 1_bandit_password
-ls
-mv bandit2_password 2_bandit_password
-cat 1_bandit_password 
-nano 3_bandit_password 
-nano 4_bandit_password 
-nano 5_bandit_password 
-cat 5_bandit_password 
-nano 6_bandit_password 
-nano 7_bandit_password 
-cat 6_bandit_password 
-cat 7_bandit_password 
-nano 8_bandit_password 
-cd Documents/banditwar/
-cd ..
-mv banditwar/ bandit/
-ls
-cd bandit/
-less 7_bandit_password 
-cd
-nano .bash_aliases 
-update
-source .bashrc
-update
-logout
-logout 
-exit
-logout
-exit
-nano .bash_aliases 
-. .bashrc
-quit
-whereis xed
-cd /usr/lib/
-ls
-cd x86_64-linux-gnu/
-ls
-cd xed
-ls
-type
-type . libxed.so
-type --help
-file libxed.so 
-nemo
-nemo .
-ls
-cd girepository-1.0/
-ls
-cd ..
-cd plugins/
-ls
-cd /usr/bin/
-ls
-file xed
-nemo .
-xedit --help
-cd
-echo $PATH
-touch print echo $PATH > print
-touch print.txt echo $PATH > print.txt xed print.txt
-touch print.txt
-echo $PATH > print.txt
-xed print.txt
-sed --help
-man sed
-sed --help
-man sed
-ls -lf
-ls -l
-nano xed
-trash echo print print.txt xed
-nemo
-touch "$PATH"
-touch $PATH.txt
-ls
-touch path.txt
-echo $PATH | sed "s/:/\n/g" > path.txt 
-xed path.txt 
-whereis nemo
-cd Documents/
-nano "linux TORRADA push token"
-sudo apt install github
-cd /media/pretzels/TORRADA_1GB/PycharmProjects/
-git init
-sudo apt install git
-git init
-git remote add origin https://github.com/SuckyPretzels/old-python-stuff.git
-git add /media/pretzels/TORRADA_1GB/PycharmProjects/HelloWorld/Shion\ Sheet.py 
-git status
-git commit --help
-git add --date='2023-05-17T05:42' -m 'the first thing i've ever made'
-
-sdf
-
-
-git status
-git commit --date='2023-05-17T05:42:46' -m 'first thing i've ever made' 
-git commit --date="2023-05-17T05:42:46" -m "first thing i've ever made" 
-git config --global user.name "Pretzels"
-git config --global user.email "117748267+SuckyPretzels@users.noreply.github.com"
-git commit --date="2023-05-17T05:42:46" -m "first thing i've ever made" 
-git push
-git push --set-upstream origin master
-git config --global user.email
-git push --set-upstream origin master
-git push
-git status
-git confit --global credential.helper store
-git config --global credential.helper store
-cd ~/Documents/
-xed dates.txt 
-cd -
-git add When\ were\ you\ born.py
-git add HelloWorld/When\ were\ you\ born.py 
-git commit --date"2023-05-18T10:49:22" -m ""
-git commit --date="2023-05-18T10:49:22" -m ""
-git commit --date="2023-05-18T10:49:22" -m " "
-git commit --date="2023-05-18T10:49:22" -m "-"
-git push
-git status
-git add
-git status
-cat ~/.git-credentials
-cd HelloWorld/
-git status
-ls -l
-git status
-cd ..
-git add HelloWorld/When\ were\ you\ born.py
-git status
-cd HelloWorld/
-git status
-cd ..
-git push
-git add HelloWorld/Shion\ Sheet.py 
-git status
-GIT_COMMITTER_DATE="2023-05-17T05:42:46" git commit --amend --no-edit
-git push
-git push --force-with-lease origin master
-GIT_COMMITTER_DATE="2023-05-18T10:49:22" git commit --amend --no-edit
-git push --force-with-lease origin master
-git filter-branch --env-filter 'GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE' -- --all
-git push --force-with-lease origin master
-git log --oneline
-git rebase -i HEAD~N
-git rebase -i HEAD~2
-git log --oneline --graph --decorate
-git rebase -i HEAD~2
-git rev-parse HEAD~2
-git rebase -i --root
-GIT_COMMITTER_DATE="2023-05-17T05:42:46" git commit --amend --no-edit
-git rebase --continue
-git push --force-with-lease origin master
-git push --force-with-lease origin main
-git push --force-with-lease origin master
-git push --force origin master
-git add HelloWorld/stuff.py 
-git status
-GIT_AUTHOR_DATE="2023-05-18T11:20:02" GIT_COMMITTER_DATE="2023-05-18T11:20:02" git commit -m "stuff"
-git status
-git push
-git branch
-git branch -m master main
-git branch
-git push -u origin main
-git push origin --delete master
-cd Documents/
-cat linux\ TORRADA\ push\ token 
-cd /media/pretzels/TORRADA_1GB/PycharmProjects/
-find . -type f -printf '%T@ %p\n' | sort -nr | ls -l
-find . -type f -printf '%T@ %p\n' | sort -n | cut -d' ' -f2- | ls -l
-find . -type f -printf '%T@ %p\n' | sort -n | cut -d' ' -f2-
-find . -type f -printf '%T@ %p\n' | sort -n | cut -d' ' -f2- | xargs -d'\n' ls -l --
-clear
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM  %p\n' | sort
-touch dates.txt
-ls
-rm dates.txt 
-touch ~/Documents/dates.txt
-ls ~/Documents/
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM  %p\n' | sort > ~/Documents/dates.txt 
-nano ~/Documents/dates.txt 
-sed -i '/.git/d' ~/Documents/dates.txt 
-nano ~/Documents/dates.txt 
-cd ~/Documents/
-xed dates.txt 
-cd -
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM %TS %p\n' | sort
-clear
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM:%0S %p\n' | sort
-clear
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM:%.0TS %p\n' | sort
-clear
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM:%.2TS %p\n' | sort
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM:%.2TS %p\n' | sort | grep -v ".git"
-find . -type f -printf '%TY-%Tm-%Td %TH:%TM:%.2TS %p\n' | sort | grep -v ".git" > ~/Documents/dates.txt 
-cd ~/Documents/
-xed dates.txt 
-cd ~
-ls -al
-cat .gitconfig 
-cd /media/pretzels/TORRADA_1GB/PycharmProjects/
-ls -la
-cd .git
-ls -la
-cat COMMIT_EDITMSG 
-cat config 
-cd ~/Documents/
-xed dates.txt 
-sudo apt install cowsay
-cowsay i hate niggers
-cowsay --help
-man cowsay
-cowsay -l
-cowsay -f cock what the hell
-cowsay -f kiss penis
-cowsay -l
-cowsay -f flaming-sheep h
-cd Pictures/
-mkdir Screenshots
-cd /media/pretzels/TORRADA_1GB/PycharmProjects/
-git status
-git push
-GIT_AUTHOR_DATE="2023-05-18T11:29:46" GIT_COMMITTER_DATE="2023-05-18T11:29:46" git commit -m "lessons"
-git push
-git add HelloWorld/Main\ Lessons/12-Loops.py 
-git status
-GIT_AUTHOR_DATE="2023-05-18T11:29:46" GIT_COMMITTER_DATE="2023-05-18T11:29:46" git commit -m "lessons"
-git status
-cd HelloWorld/
-ls -al
-cd Main\ Lessons/
-git add 14-Loop\ Breaks.py 
-git status
-cd ..
-git status
-GIT_AUTHOR_DATE="2023-05-18T11:46:14" GIT_COMMITTER_DATE="2023-05-18T11:46:14" git commit -m "lessons"
-git add HelloWorld/Main\ Lessons/15-Lists.py 
-GIT_AUTHOR_DATE="2023-05-19T13:38:14" GIT_COMMITTER_DATE="2023-05-19T13:38:14" git commit -m "lessons"
-cd HelloWorld/Main\ Lessons/
-git add 16-2D\ Lists.py 
-git status
-git restore --staged 16-2D\ Lists.py 
-git log --oneline --graph 
-git rebase -i
-git rebase --help
-git rebase -i
-git rebase --continue
-git rebase -i
-rebase -i
-git rebase -i
-GIT_AUTHOR_DATE="2023-05-18T12:01:14" GIT_COMMITTER_DATE="2023-05-18T12:01:14" git commit --amend --no-edit
-git add 16-2D\ Lists.py 
-GIT_AUTHOR_DATE="2023-05-19T13:38:14" GIT_COMMITTER_DATE="2023-05-19T13:38:14" git commit -m "Main Lessons/16-2D Lists"
-git add 17-Tuple.py 
-GIT_AUTHOR_DATE="2023-05-19T13:47:10" GIT_COMMITTER_DATE="2023-05-19T13:47:10" git commit -m "Main Lessons/17-Tuple.py"
-git add 18-Sets.py 
-GIT_AUTHOR_DATE="2023-05-19T13:54:54" GIT_COMMITTER_DATE="2023-05-19T13:54:54" git commit -m "Main Lessons/18-Sets.py"
-git add 19-Dictionary.py 
-GIT_AUTHOR_DATE="2023-05-19T14:05:14" GIT_COMMITTER_DATE="2023-05-19T14:05:14" git commit -m "Main Lessons/19-Dictionary.py"
-git add 20-Index\ operator.py 
-GIT_AUTHOR_DATE="2023-05-19T14:13:54" GIT_COMMITTER_DATE="2023-05-19T14:13:54" git commit -m "Main Lessons/20-Index operator.py"
-git add 21-Function.py 
-GIT_AUTHOR_DATE="2023-05-19T14:25:16" GIT_COMMITTER_DATE="2023-05-19T14:25:16" git commit -m "Main Lessons/21-Function.py"
-git add 22-Return.py 
-GIT_AUTHOR_DATE="2023-05-22T13:06:28" GIT_COMMITTER_DATE="2023-05-22T13:06:28" git commit -m "Main Lessons/22-Return.py"
-git add 23-Keyword\ Arguments.py 
-GIT_AUTHOR_DATE="2023-05-22T13:12:48" GIT_COMMITTER_DATE="2023-05-22T13:12:48" git commit -m "Main Lessons/23-Keyword Arguments.py"
-git add 24-Nested\ Function\ Calls.py 
-GIT_AUTHOR_DATE="2023-05-22T13:19:46" GIT_COMMITTER_DATE="2023-05-22T13:19:46" git commit -m "Main Lessons/24-Nested Function Calls.py"
-git add 25-Scope.py 
-GIT_AUTHOR_DATE="2023-05-22T13:31:54" GIT_COMMITTER_DATE="2023-05-22T13:31:54" git commit -m "Main Lessons/25-Scope.py"
-git add 26-Args.py 
-GIT_AUTHOR_DATE="2023-05-22T13:48:34" GIT_COMMITTER_DATE="2023-05-22T13:48:34" git commit -m "26-Args.py"
-git rebase -i
-git rebase --continue
-git rebase -i
-rebase --continue
-git rebase --continue
-git add 27-Kwargs.py 
-GIT_AUTHOR_DATE="2023-05-22T13:56:26" GIT_COMMITTER_DATE="2023-05-22T13:56:26" git commit -m "Main Lessons/27-Kwargs.py"
-ls 28-\ str.format\(\).py 
-mv 28-\ str.format\(\).py 28-str.format\(\).py 
-ls 28-str.format\(\).py 
-git add 28-str.format\(\).py 
-GIT_AUTHOR_DATE="2023-05-22T16:01:42" GIT_COMMITTER_DATE="2023-05-22T16:01:42" git commit -m "Main Lessons/28-str.format().py"
-git add 29-Random\ module.py 
-GIT_AUTHOR_DATE="2023-05-22T16:07:38" GIT_COMMITTER_DATE="2023-05-22T16:07:38" git commit -m "Main Lessons/29-Random module.py"
-git add 30-Exception.py 
-GIT_AUTHOR_DATE="2023-05-22T16:19:48" GIT_COMMITTER_DATE="2023-05-22T16:19:48" git commit -m "Main Lessons/30-Exception.py"
-git push
-quit
-man grep
-~/Documents/
-cd ~/Documents/
-ls -la
-dates.txt grep -i ok
-grep -i ok dates.txt 
-man grep
-sed -i 'ok/d' dates.txt
-sed -i.bak '/ok/d' dates.txt
-ls -al
-xed dates.txt.bak
-grep -i ok dates.txt.bak
-cd 
-cd Documents/
-xed dates.txt 
-bandit 8
-bandit 9
-bandit
-bandit 9
-bandit10
-bandit 10
-clear
-bandit 9
-bandit 10
-bandit 9
-bandit 10
-bandit 11
-bandit 12
-bandit 13
-cd Documents/
-cd bandit/
-cat 8_bandit_password 
-man uniq
-man sort
-nano 9_bandit_password 
-cat 9_bandit_password 
-man base64
-man tr
-man gzip
-man xxd
-nano 10_bandit_password 
-man strings
-nano 11_bandit_password 
-man tr
-cat 11_bandit_password 
-nano 12_bandit_password 
-man xxd
-man tar
-man gzip
-man bzip2
-man grep
-man gzip
-man bzip2
-man file
-man tar
-nano 13_bandit_password 
-sudo apt install CMatrix
-sudo apt install cmatrix
-cmatrix
-man cmatrix
-cmatrix -ab
-nano .bashrc
-cd Documents/
-xed dates.txt
-i love gays
-sudo apt install blackbox
-sudo apt remove blackbox
-sudo autoclean
-sudo apt autoremove
-sudo apt autoclean
-sudo apt install cava
-cava
-man cava
-cava
-cd Documents/
-xed dates.txt
-source config.jsonc 
-fastfetch
-fastfetch --list-logos
-fastfetch --gen-config
-cd /home/pretzels/.config/fastfetch/
-xed config.jsonc 
-rm config.jsonc 
-fastfetch --gen-config-full
-xed config.jsonc 
-fastfetch
-xed config.jsonc 
-fastfetch
-fastfetch --list-logosA
-nemo
-nemo ~/.config/fastfetch/
-fastfetch 
-nemo ~/.config/fastfetch/
-fastfetch 
-fast
-fastfetch 
-update
-sudo apt install xfce4 xfce4-goodies
-logout
-exit
-fastfetch 
-penis
-sudo install xcfe4-whiskermenu-plugin
-sudo apt install xfce4-whiskermenu-plugin
-sudo apt install xfce4-genmon-plugin
-sudo apt install redshift redshift-gtk
-redshift
-whereis librewolf
-free -h
-sudo apt install redshift redshift-gtk
-sudo apt remove redshift
-sudo apt autoremove
-sudo apt autoclean
-sudo apt install qredshift redshiftgtk
-sudo apt remove redshift
-sudo apt autoremove
-fastfetch 
-/usr/bin
-cd usr/bin
-cd /usr/bin
-ls
-ls-a
-ls -a
-cd fastfetch
-cd .config
-cd
-whereis fastfetch
-cd usr/share/
-cd /usr/share
-ls
-cd .config
-fzf 
-sudo apt install fzf
-fzf fast
-man fzf
-fzf -i fastfetch/presets/
-cd
-fzf -i fast
-fzf -i fastfetch
-man fzf
-fzf
-cd /
-fzf -i
-cd ~/.config/fastfetch/
-xed config.jsonc 
-fastfetch 
-cd .config
-fzf
-man fzf
-fzf -e
-sudo apt remove xfce4
-sudo apt remove xfce
-sudo apt autoremove
-sudo apt autoclean
-cd /
-fzf -e
-sudo apt remove --purge xfce4 xfce4-goodies
-sudo apt autoremove
-sudo apt autoclean
-fzf
-fzf -e
-sudo rm /usr/share/xsessions/xfce.desktop
-sudo rm /usr/share/xsessions/xfce4.desktop
-clear
-fastfetch 
-clear
-sudo apt install kitty
-cd .local/bin
-nano terminal-toggle.sh 
-kitty
-cd .local/bin/
-xed terminal-toggle.sh 
-whereis kitty
-whereis terminal
-whereis gnome-terminal
-sudo apt remove blackbox
-cd /
-dpkg -l | grep xfce
-fzf -e
-kitten choose-fonts
-kitty kitten+ choose-fonts
-kitten chosse-fonts
-kitten choose-fonts
-kitten --help
-kitty +kitten choose-fonts
-cd /
-dpkg -l | grep xfce
-cd 
-cd Desktop/
-touch files.txt
-cd /
-dpkg -l | grep xfce > ~/Desktop/files.txt
-cd ~/Desktop/
-cd
-sudo apt remove --purge xfce4-terminal thunar xfce4-power-manager xfce4-whiskermenu-plugin
-sudo apt autoremove
-sudo apt autoclean
-dpkg -l | grep xfce
-dpkg -l | grep xfce > ~/Desktop/files.txt 
-sudo apt remove --purge elementary-xfce-icon-theme libxfce4panel-2.0-4 libxfce4ui-2-0:amd64 libxfce4ui-common libxfce4util-bin libxfce4util-common libxfce4util7:amd64 xfce4-clipman xfce4-genmon-plugin:amd64 xfce4-helpers xfce4-notifyd xfce4-panel xfce4-session xfce4-settings
-sudo apt autoremove
-sudo apt autoclean
-dpkg -l | grep xfce
-cd /
-fzf -e
-sudo apt autoremove
-cd 
-sudo rm Desktop/files.txt 
-config
-kitty --gen-config-full
-kitty --gen-config
-kitty --help
-cd /
-fzf -e
-cd usr/share/doc/kitty/examples/
-ls
-xed kitty.conf
-sudo apt hyprland
-sudo apt install hyprland
-cd
-sudo apt install hyprland
-fastfetch 
-update
-sudo add-apt-repository ppa:example/hyprland
-sudo add-apt-repository universe
-sudo apt-get update
-sudo apt install --help
-man apt
-sudo apt search hyprland
-sudo apt search
-man apt
-sudo apt list
-sudo apt list | grep land
-sudo apt edit-source
-man apt
-man install
-man sudo
-sudo list
-sudo -l
-man apt-get
-sudo add-apt-repository galaxy
-fastfetch 
-sudo add-apt-repository universe
-sudo apt-get update
-update
-sudo apt remove thunderbird
-sudo apt autoremove
-sudo apt autoclean
-cd .config/kitty/
-ls
-man xed
-man kitty
-xed kitty.conf
-which bash
-kitten theme
-lovely
-mkdir .fonts
-nano ~/.config/kitty/kitty.conf
-ls
-cd .config/kitty/
-ls
-mv kitty.conf.example kitty.example
-cd .config/kitty/
-nano kitty.conf 
-cd .config/kitty/
-cd /usr/share/doc/kitty
-ls
-cd examples/
-nano kitty.conf 
-cd .config/kitty/
-nano kitty.conf 
-cd .config/kitty
-nano kitty.conf 
-cd
-ls
-ls -la
-clear
-ls -a
-nano .bash_aliases 
-source .bashrc 
-cd
-cd -
-cd --
-cd .config/kitty/
-xed kitty.conf dont
-aliases
-alias
-xed dont kitty.conf 
-ls
-ls -a
-xed kitty.conf &
-cd .config/kitty/
-xed kitty.conf &
-xed .bashrc 
-bg
-1
-cd .config/kitty/
-nohup xed kitty.conf &
-reset
-kitty
-cd .config/kitty/
-nano kitty.conf 
-nano current-theme.conf 
-nano kitty.conf 
-nano
-cd /usr/share/doc/kitty
-nano kitty.conf
-cd examples
-nano kitty.conf 
-cd .config/kitty/
-nano kitty.conf 
-aiusdh
-nano kitty.conf 
-cd .config/kitty/
-nano kitty.conf 
-cd .config/kitty/
-nano kitty.conf 
-cd .config/kitty/
-fastfetch 
-nano .bash_aliases 
-kitty
-nano .bash_aliases 
 fg
+reload
+xmod
+fg
+xmod
+reload
+xmod
 clear
-nemo .config/kitty/current-theme.conf &
-fastfetch 
-layouts
-xed /usr/share/doc/kitty/examples/kitty.conf 
-xed .config/kitty/kitty.conf 
-bg
-cd .config/kitty/
+man wc
+wc .bashrc
+man wc
+wc -w .bashrc
+wc -c .bashrc
+man wc
+wc -m .bashrc
+man wc
+cd programming/zig/zigging/wc/
+zig run wc.zig --color off
+zig version
+zig std
+clear
+zig std --color off
+clear
+zig-quiet std
+zig version
+cd ~/Downloads/
 ls
-nano kitty.conf 
-nano kitty.conf
-htop
-nano --version
-nano .bashrc
-nano .config/kitty/kitty.conf 
-nano .bashrc
-penis
-starship
-starship print-config
-fastfetch 
-clear
-cd .local/bin/
-nano toggle_desktop_icons.sh
-chmod +x toggle_desktop_icons.sh 
-man mkdir
+tar -xf zig-x86_64-linux-0.16.0.tar.xz 
+ls
+rm -rf zig-x86_64-linux-0.16.0.tar.xz 
+cd zig-x86_64-linux-0.16.0/
+ls
+./zig version
+mv * ~/.zig/zig-0.16.0/
+ls
 cd ..
-ls -l
-cd share
-ll
-man ls
-cd nemo
-ll
-cd scripts/
-ll
-cd ..
-cd actions
-pws
-pwd
-ll
-nano toggle_desktop_icons.nemo_action
-nemo -q
-nemo toggle_desktop_icons.nemo_action 
-nano toggle_desktop_icons.nemo_action 
-nemo -q
-nano toggle_desktop_icons.nemo_action 
-fast
-fastfetch 
-grep .sh
-gret. sh .
-grep .sh .
-ls . | grep .sh
-ls .
-find -f | ls -l | grep .sh
-find -l | ls -l | grep .sh
-man find
-find | ls -l | grep .sh
-find | ls -l | grep .sh | cat
-ls -la | grep bash
-find .
-find . | ls -l | grep .sh
-find . | ls -l
-find --help
-man find
-find . -type f -name "*.sh"
-clear
-ls -la | grep bash
-nano .bash_functions 
-nano .bashrc 
-source .bashrc 
-clear
-curl -sS https://starship.rs/install.sh | sh
-clear
-cd .local
-l
-ls -al
-cd bin
-ls -l
-nano .config/kitty/kitty.conf 
-sudo apt install emacs
-cd .local
-ll
-cd share/nemo/actions
-cd 
-.local/bin
-cd .local/bin
-nano toggle_desktop_icons.sh 
+ls
+rm zig-x86_64-linux-0.16.0/
+rmdir zig-x86_64-linux-0.16.0/
+ls
+cd ~/.var/
+ls
+cdl app/
 cd
+cd .zig/
+ls
+cd zig
+ls
+cd ..
+zig version
+mv zig/ zig-0.17.0-dev.27+0dd99c37c/
+mkdir zig-0.16.0/
+cdl zig-0.16.0/
+cd && vim .bashrc
+cd .zig/zls
+ls
+vim README.md 
+cd
+reload
+zig version
+cd programming/zig/ziglings/
+zig build
+zig
+zig build-exe --help
+cd ~/.zig
+ls
+mv zig-0.16.0/ zig/
+cd && vim .bashrc
+reload
+cd programming/zig/zigging/wc/
+zig run wc.zig --color off -- test.txt 
+wc test.txt 
+man wc
+xmod
+zig run wc.zig --color off -- test.txt 
+
+zig run wc.zig --color off -- test.txt 
+wc test2.txt 
+zig run wc.zig --color off -- test2.txt 
+zig build-exe --help | grep small
+zig build-exe --help | grep -i small
+zig build-exe --help
+touch build-help.txt
+zig build-exe --help > build-help.txt 
+zig build-exe wc.zig   -O ReleaseSmall   -fstrip   -ffunction-sections   -fdata-sections   --gc-sections   -fno-unwind-tables   -fno-formatted-panics   -fsingle-threaded
+strip ./wc
+man wc
+cd ../ls/
+ls
+zig run ls.zig --color off
+man z
+z
+zoxide
+zig run ls.zig --color off
+clear
+zig run ls.zig --color off
+zig run wc.zig --color off
+zig run wc.zig --color off -- -cml
+zig run wc.zig --color off -- test.txt 
+btop
+zig run wc.zig --color off -- test.txt -c
+zig run wc.zig --color off -- test.txt -clm
+git status
+cd ..
+git status
+git add ls/ -m "added ls/. trying to replicate the standard linux ls binary."
+git add ls/
+git commit -m "added ls/ trying to replicate the standard linux binary ls. (this is from yesterday btw)"
+git add wc/wc.zig
+cd wc/
+touch .gitignore
+cd ..
+ls
+git status
+git add .
+git commit -m "added support for flags in the command line. although currently not doing anything with them."
+cd programming/zig/zigging/wc/
+wc test.txt 
+wc test.txt test2.txt 
+xmod
+wc --help
+wc .bashrc -m
+wc .bashrc
+wc -c .bashrc
+clear
+wc --help
+xmod
+node caixaRegistradora.js 
+node banco.js 
+git status
+git add *.js
+git commit -m "adicionadas tarefas to trabalho 4 de rla"
+git push
+node romanToInt.js 
+btop
+git status
+git add .
+git commit -m "moved some stuff around"
+git status
+git rm .
+zig run wc.zig -- test.txt 
+wc test2.txt 
+wc test.txt 
+zig run wc.zig -- test.txt 
+zig run wcTest.zig -- test.txt 
+zig run wcTest.zig -- test.txt > test1bytes.txt
+ls
+hexdump
+hexdump --help
+hexdump test.txt -C
+clear
+hexdump --help
+hexdump test.txt -c
+clear
+zig run wcTest.zig -- test.txt > testbytes.txt
+zig run wc.zig -- test.txt
+zig run wc.zig -- test.txt test2.txt
+git status
+zig run wc.zig -- test.txt test2.txt
+git status
+zig run wc.zig -- test.txt test2.txt
+xmod
+bash
+terminal
+printenv
+SHELL
+echo $SHELL
+echo $TERM
+whereis node
+xmod
+cd programming/zig/zigging/wc/
+wc test.txt -m
+cd --help
+clear
+wc --help
+wc test.txt -m
+mv test1bytes.txt testBytes.txt
+wc test.txt 
+zig run wcTest.zig -- test.txt > testBytes.txt 
+wc test.txt 
+wc test.txt -m
+hexdump -c test.txt 
+wc test.txt
+hexdump test.txt -c
+zig run wcTest.zig --color off -- test.txt 
+wc test.txt 
+zig run wcTest.zig --color off -- test.txt 
+[A
+zig run wcTest.zig --color off -- test.txt 
+git status
+wc test2.txt 
+wc test2.txt -c
+cd programming/
+git status
+cd arduino/
+ls
+vim .bash_aliases
+zig run wc.zig -- test.txt
+zig run wc.zig -- test.txt test2.txt
+zig run wc.zig -- test.txt test2.txt test3.txt 
+./wc test.txt test2.txt test3.txt 
+git add .
+git commit -m "added some comments"
+git push
+git status
+git add .
+git commit -m "added windows compatible executable"
+git push
+zig run wc.zig -- test1.txt test2.txt test3.txt 
+zig run wc.zig -- -w test1.txt test2.txt test3.txt 
+zig run wc.zig -- -wl test1.txt test2.txt test3.txt 
+zig run wc.zig -- -cwlm test1.txt test2.txt test3.txt 
+zig run wc.zig -- test1.txt test2.txt test3.txt 
+clear
+zig run wc.zig -- test1.txt test2.txt test3.txt -c
+zig run wc.zig -- test1.txt test2.txt test3.txt -m
+btop
+zig run wc.zig -- test1.txt test2.txt test3.txt -clmw
+git status
+git add .
+git commit -m "now properly handling flags to print words, chars, lines, or bytes. i don't really like how i handled it though. i think i might remove printBar() because of it"
+zig run wc.zig -- test1.txt 
+zig run wc.zig -- test1.txt -h
+zig-minimal-build wc.zig
+reload
+zig-build-minimal wc.zig
+zig-build-minimal wc.zig -target x86_64-windows
+git status
+git add .
+git status
+git restore --staged all
+git restore --staged .
+git add README.txt 
+git commit -m "added README"
+git status
+git add .
+git commit -m "removed printBar(). added help, updated windows and linux binaries, added some improvements"
+git push
+./wc
+./wc oijoij
+./wc test1.txt y
+./wc test1.txt -y
+./wc -h
+zig run wc.zig -- -h
+zig-build-minimal wc.zig
+zig-build-minimal wc.zig -target x86_64-windows
+git status
+git add .
+git commit -m "removed printBar(). added help, updated windows and linux binaries, added some improvements (again)"
+git push
+./wc -h
+./wc
+./wc oijsdoifj
+./wc -y
+xmod
+cd programming/zig/zigging/wc/
+zig build-exe wc.zig   -O ReleaseSmall   -fstrip   -ffunction-sections   -fdata-sections   --gc-sections   -fno-unwind-tables   -fno-formatted-panics   -fsingle-threaded --color off
+ls
+ll
+git status
+git add .
+git commit -m "updated wc.zig and updated wc binary. now can handle multiple files and has nice formatting on output. still can't handle flags"
+git push
+git fetch origin main
+git push
+git status
+git merge
+git push
+git status
+cd ../../../javascript/
+git rm Ternary-operator-and-switch\(12_03_2026\)
+git rm Ternary-operator-and-switch\(12_03_2026\) -r
+git status
+git commit -m "deleted somethings that weren't auto deleted for some reason"
+git push
+ll
+cdl class
+clear
+cd ../../zig/zigging/wc
+trash testBytes.txt 
+mv test.txt test1.txt
+clear
+./wc test1.txt 
+./wc test1.txt test2.txt test3.txt 
+clear
+./wc test1.txt 
+./wc test1.txt test2.txt test3.txt 
+zig build-exe --help
+zig build-exe --help | grep .exe
+zig build-exe --help | grep windows
+zig build-exe --help | grep target
+zig build-exe -target
+targets
+zig targets
+zig targets | grep windoes
+zig targets | grep windows
+reload
+zig-build-minimal wc.zig -target windows 
+zig-build-minimal wc.zig -target "windows" 
+zig-build-minimal wc.zig -target os windows 
+zig build-exe --help | grep target
+zig targets | windows
+zig targets | grep windows
+zig targets > targets.txt
+zig-build-minimal wc.zig -target.os windows
+zig-build-minimal wc.zig -target <os> windows
+zig-build-minimal wc.zig -target x86_64-windows
+ls
+rm targets.txt 
+./wc.exe
+ls
+git status
+wc test1.txt test2.txt 
+wc --help
+wc -cmlw test1.txt test2.txt 
+wc --version
+zig run wc.zig test1.txt test2.txt test2.txt -m
+zig run wc.zig -- test1.txt test2.txt test2.txt -m
+wc --help > help.txt
+zig run wc.zig -- test1.txt
+wc --help
+sudo useradd -m tempuser && sudo passwd tempuser
+logout 
+usermod -d /home/nero -m nero
+usermod -d /home/nero -m Nero
+man usermod
+usermod -d /home/nero -m pretzels
+sudo usermod -d /home/nero -m pretzels
+sudo usermod -aG sudo tempuser
+su -
+sudo whoami
+sudo passwd root
+su -
+pwd
+cd
+su tempuser
+xmod
+vim .bashrc
+cd .config/nvim/ && vim .
+ll
+touch lua/core/theme.lua
+fg
+vim .
+zig run input.zig 
+zig run main.zig 
+git init
+git branch -m main
+git add .
+git commit -m "first commit. very simple structure is working"
+xmod
+cdl /
+cdl bin
+w
+cdl ../boot
+cdl grub
+cdl locale
+cd ../..
+ll
+cdl efi
+sudo cdl efi
+cdl efi
+su -
+pwd
+cd ../../..
+cd ../../../..
+cd
+cd /boot
+ll
+cd /root
+su -
+ll
+cd
+cdl /opt
+cdl /usr
+cdl games
+gamemodelist --help
+./gamemodelist --help
+awk --help
+ll
+cowthink
+cowthink --help
+cdl ..
+cdl bin
+zcat --help
+ll | head
+cdl ..
+cdl local
+cdl bin
+starship
+starship prompt
+clear
+ll
+yelp --help
+yelp
+ll
+cdl ..
+cdl games
+cdl ../sbin
+cdl ../share
+cdl emacs
+cdl site-lisp/
+cdl ../../..
+cdl src
+cdl ../include
+cdl ../etc
+cd 
+cd -
+cdl ../..
+cdl sbin
+cdl ..
+cdl share
+cdl fish
+cd ../..
+ll
+cdl src
+cdl python3.12/
+cdl Parser/
+vim Python.asdl 
+cdl ../Grammar/
+vim python.gram 
+cdl /media
+cdl pretzels/
+cdl /mnt
+cdl HD
+cdl lost+found/
+cdl SteamLibrary/
+cdl steamapps/
+cdl common/
+cdl /
+cdl etc
+vim bash.bashrc 
+vim aliases
+xmod
+zig run main.zig 
+clear
+zig run main.zig 
+git status
+git add .
+git commit -m "added a bunch of new rooms but the game is currently broken because of some kind of error on taking input"
+zig run main.zig
+git status
+git add .
+git commit -m "huge improvement on room storage and declaration. the game is now working fully but the maze is not finished yet. currrently still some inaccessible paths"
+zig run main.zig
+git status
+git add .
+git commit -m "added rooms.zig to hold all the rooms for now. i also learned how to import files in zig. that's pretty cool. if/when i have more areas, i will add a proper build system for all the areas"
+./wc test1.txt 
+./wc test1.txt test2.txt test3.txt 
+node function.js 
+node ageCheck.js 
+node tryParse.js 
+node approved.js 
+xmod
+cd text-adventure-game/
+git status
+zig run main.zig 
+xmod
+zib build-exe main.zig 
+zig build-exe main.zig 
+node test.js 
+zig run main.zig 
+git status
+git add .
+git commit -m "added an orientation tracking system to alter room exit messages based on the players orientation. planning to add a system to change the description of the room based on where the player enters from"
+xmod
+xmos
+xmod
+zig run main.zig 
+git status
+git add .
+git commit -m "nicolas diz oi"
+git push
+git add .
+git commit -m "nicolas diz Oi!"
+git push
+cd
+node add.js 
+git status
+cd text
+cd text-adventure-game/
+git add remote https://github.com/NeroNozaki/text-adventure-game.git
+git remote add origin https://github.com/NeroNozaki/text-adventure-game.git
+git push -u origin main
+git status
+clear
+cd trabalho-de-matematica/
+npm init -y
+npm install @types/p5 --save-dev
+ll
+cdl node_modules
+cdl @types/
+cdl p5
+cdl src
+cd ..
+vim README.md 
+cdl ../../..
+vim package.json 
+vim package-lock.json 
+cdl node_modules/
+cdl @types/
+cdl p5
+cdl src
+cdl core
+cdl shape/
+cdl ../../..
+cdl lib
+cdl addons
+cdl ../..
+cdl ..
+ll
+http-server
+clear
+fastfetch
+xmod
+git clone https://github.com/NeroNozaki/nickexample.git
+git clone https://github.com/NeroNozaki/trabalho-de-matematica.git
+node
+clear
+node
+npm install p5
+npm fund
+xmod
+cd programming/javascript/
+ll
+cdl ..
+cd node_modules/
+ll
+cd ..
+mv node_modules/ javascript/
+chmod 7 node_modules/
+clear
+cd
+npm install -g http-server
+cd programming/node_modules/
+npm install -g http-server
+sudo npm install -g http-server
+npm fund
+cd
+npm fund
+cd programming/
+npm fund
+cdl node_modules/
+cd
+npm install -g http-server
+cdl /usr/local/lib/node_modules/
+cd http-server
+ll
+cdl node_modules/
+clear
+cd ~/trabalho-de-matematica/
+cd
+clear
+zig run main.zig 
+cd ..
+git status
+git add .
+git commit -m "it's still not looking great but i've delayed the first commit enough"
+git push
+node array.js 
+xmod
+git status
+git rm permutation-commander.html 
+mv main/.gitignore .
+git status
+git add .
+git commit -m "forgot the .gitignore. oops"
+git push
+java helloworld.java
+node synInterpreter.js program.syn 
+node test-file.js program.syn 
+git status
+zig run main.zig 
+xmod
+java --version
+jvm --version
+jdk --version
+openjdk --version
+echo 
+echo $JAVA_HOME
+which java
+whereis java
+xmod
+node mediaPonderada.js 
+node desconto.js 
+node senhaForte.js 
+git status
+git add .
+git commit -m "adicionei um monte de coisas da classe"
+git push
+xmod
+mkdir geode/ && cd geode
+curl -o- 'https://geode-sdk.org/install/linux.sh' | bash
+ls
+cd
+rmdir geode
+mkdir geode-saved/ && cd geode-saved
+git clone https://github.com/NeroNozaki/transfer.git
+ll
+cd transfer
+mv * .
+mv * ..
+cd ..
+rm transfer
+rmdir transfer
+mv * /home/pretzels/.steam/steam/steamapps/common/Geometry Dash/geode/config/geode.loader
+mv * /home/pretzels/.steam/steam/steamapps/common/Geometry\ Dash/geode/config/geode.loader
+ls
+sudo usermod -aG input $USER
+ll
 cd .steam
 ll
-cd debian-installation/
+cd steam
 ll
-cd steamapps
-cd common/
-ll
-cd /mnt/hd
-nemo
-cd /mnt/HD/
-ll
-cd SteamLibrary/
-ll
-cd steamapps/common/Neon\ White/
-ll
+cdl steamapps
+cdl common
+cdl Geometry\ Dash/
 pwd
-clear
-cd
-emacs -nw
-emacs .bashrc
-emacs -nw .bashrc
-starship
-starship config
-starship
-cd .config/
+xmod
+git status
+git restore desconto.js 
+git pull
+git status
+mv test/* main/
+cdl main
+git status
+rmdir test
+cdl .
+cdl ..
+git status
+rmdir test
+git add .
+git commit -m "fiz algo. nao ta perfeito, mas ta funcionando mais ou menos"
+git push
+nvim .
+xmod
+node dateVerifier.js 
+node dateVerifier\(simple\).js 
+xmod
+man chmod
+sudo snap install losslesscut
+mkdir random-software/
+cd random-software/
+mv ~/Downloads/nvim-linux-x86_64.appimage .
+reload
+nvim
+ls
+reload
+nvim
+mv ~/Downloads/LosslessCut-linux-x86_64.AppImage .
 ll
-mkdir starship
-touch starship/config.toml
-clear
-starship
-config
-starship config
-cd .config
+man chmod
+pwd
+chmod 764 LosslessCut-linux-x86_64.AppImage 
 ll
-rm .starship.toml.swp .starship.toml.swo
-ll
-starship
-print-config > starship/config.toml 
-starship print-config > starship/config.toml 
-nano starship/config.toml 
-cd kitty/kitty.conf
-cd kitty/
-nano kitty.conf
+xmod
+git status
+git add .
+git commit -m "many improvements done in the back end to allow further scaling. segregading loading units based on level, although the slot number is still hard coded. and added the ability to return units the unit bar at the bottom"
+git push
+git status
+git add .
+git commit -m "changed name of folder"
+git push
+git status
+git add .
+git commit -m "changes to make the game more scalable. added more elements"
+git push
+git status
+git add .
+git commit -m "added a menu with buttons and a tutorial screen. more work on making it more scalable"
+git push
+git status
+git add .
+git commit -m "put the images folder inside of docs/ to fix a bug where the images weren't being used properly"
+git push
+git status
+cd docs
+git status
 cd ..
-starship/
-cd starship/
+git add .
+git commit -m "added changed orientation of battle screen, added a button to go back to the menu from battle, added results screen, changed fight logic, changed the creature images"
+git push
+git status
+git add .
+git commit -m "adicionei uma animação de início. cortesia de luiz miguel"
+git push
+git status
+git add .
+git commit -m "added more levels"
+git push
+git status
+cd docs/images
+git status
+cd ../..
+git status
+git add .
+git commit -m "added images that i forgot to add"
+git push
+git add .
+git status
+git add .
+git commit -m "small change to level 3"
+git push
+git status
+git add .
+git commit -m "added music to the menu and results screens. plus a pause button"
+git status
+git add .
+git commit -m "added procedurally generated levels (i totally did that)"
+git push
+git status
+xmod
+clear
+node morseTrnaslator.js 
+node morseTranslator.js 
+xmod
+cd programming/javascript/class/AV3/
+node morseTranslator.js 
+clear
+cd
+xev 
+clear
+xmod
+xev
+xmodmap -e "keycode 67 = Pointer_Button5"
+xev
+xmod
+xev
+clear
+sudo apt install xbindkeys xdotool
+xbindkeys
+xev
+xmpd
+xmod
+node morseTrnaslator.js 
+node morseTrnaslator.js
+node morseTranslator.js 
+xmod
+git fetch
+git status
+git add .
+git pull
+git commit -m "stuff"
+git push
+node matriz.js 
+xmod
+cd Pictures/
+ll
+cdl S
+cdl Screenshots/
+mv acropolis\ 52-100.png acropolis\ 51-100.png 
+ll
+cd
+clear
+xmod
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt install obs-studio
+mkdir Videos/obs/
+mv 2026-06-06\ 16-26-31.mkv Videos/obs/
+cd Videos/obs
 ls
-man mv
-mv config.toml ../starship.toml
-ls
+celluloid 2026-06-06\ 16-26-31.mkv 
+trash 2026-06-06\ 16-26-31.mkv 
+wine --version
+sudo apt install wine
+update
+wine --version
+xmod
+cd /media/pretzels/THE\ GOAT/Notepad3/
+ll
+wine Notepad3.exe 
+cd
+node fizzbuzz.js 
 cd ..
-ls
-rm starship/
-rmdir starship/
-ls
-clear
-starship
-starship prompt
-cd
-starship prompt
-cd .config
-emacs starship.toml
-emacs -nw starship.toml
-xed starship.toml
-cd
-cd .config
-xed starship.toml 
-xed starship.toml &
-nano .bashrc
-nano .bash_functions 
-nano .bashrc 
+git status
+xmod
+mv orgmode Documents/
+xmod
+git statuts
+git status
+git add .
+git commit -m "adicionada tela de enredo. cortesia de diego que n sabe fazer um pr"
+git push
+cd magyumon2/
+git clone https://github.com/Petroievysk/Magyumon.git
+cd Magyumon/
+mv * ..
+cd ..
 ll
-nano .xinputrc 
-nano .bash_functions 
-cd .config
-xed starship.toml &
-source starship.toml
-clear
 cd
-nano .bash_aliases
-reload
-source .bashrc
-reload
-cd .config
-reload
-nano kitty/kitty.conf
-fastfetch
-reload
-sudo apt instal sassc murrine-engine gnome-themes-extra
-sudo apt install sassc murrine-engine gnome-themes-extra
-sudo apt install gtk2-engines-murrine
-cd
-reload
+rm -rf magyumon2/
+git clone https://github.com/Petroievysk/Magyumon.git
+mv Magyumon/ magyumon2
+cd magyumon2/
 cd 
-cd Downloads/
-mv TokyoNightMoon/ ~/.themes
-cd 
-.bash_functions
-nano .bash_functions
-reload
-nano .bashrc~ 
-rm .bashrc~ 
-reload
-nano .config/starship.toml 
-starship preset nerd-font-symbols -o ~/.config/starship.toml
-nano .config/starship.toml 
-starship print-config
-clear
-nano nerdfont.txt 
-reload
-nano .config/kitty/kitty.conf 
-cd .config
-ll | grep starship
-cat starship.toml.swp
-cat .starship.toml.swp 
-rm .starship.toml.swp 
-rm starship.toml.backup
-mv starship.toml starship.toml.backup
-touch starship.toml
-nano kitty/kitty.conf 
-reload
-xed .config/starship.toml 
-nano .config/kitty/kitty.conf 
-kitty @ get-colors
-kitty get-colors
-nano .bash_functions 
-nano .config/starship.toml 
-
-nano
-nano .config/starship.toml 
-nano .nanorc
-nano .config/starship.toml 
+cp magyumon/ magyumon3/
+cp -rf magyumon/ magyumon3/
+cp -rf magyumon2/ magyumon/
+cd magyumon/
+git status
+xmod
+cd .config/nvim
+nvim .
+fr
+br
+fb
+ft
+rf
+fg
 ll
-nano path.txt 
-trash path.txt 
-sudo apt updatedb
-sudo updatedb
-sudo apt install tldr
-tldr bash
-tldr --update
-tldr --show-paths
-nano .config/tealdeer/config.toml
-.config ll
-ll .config
-starship
-starship print-config
-nano .config/starship.toml 
-starship explain
-starship
-starship prompt
-starship module
-starshi preset
-starship preset
-starship 
-cd .config
-cp starship.toml starship.toml.backup
-reload
-ll
-reload
-ll
-reload
-cd
-nano nerdfont.txt 
-sudo
-update
-reload
-update
-reload
-nano nerdfont.txt 
-reload
-starship print-config
-clear
-cd .config
-ll
-starship print-config | starship.toml
-starship print-config > starship.toml 
-nano starship.toml 
-xdg-settings get default-web-browser 
-xdg-settings set default-web-browser librewolf.desktop
-nano .config/kitty/kitty.conf 
-nano .config/kitty/startup.session
-nano .config/kitty/kitty.conf 
-cd .config/kitty/
-nano kitty.conf 
-kitty
-nano .config/kitty/kitty.conf 
-kitty
-nano .config/kitty/kitty.conf 
-kitty --session ~/.config/kitty/startup.session 
-nano .config/kitty/startup.session 
-kitty --session ~/.config/kitty/startup.session 
-kill terminal
-terminate terminal
-kill gnome-terminal
-nano .config/kitty/startup.session 
-fastfetch 
-clear
-fastfetch 
-kitty --session os_window_state maximized
-kitty --session ~/.config/kitty/startup.session 
-nano .config/kitty/startup.session 
-man kitty
-nano .config/kitty/startup.session 
-nano .config/kitty/kitty.conf 
-nano .config/kitty/startup.session 
-nano .config/kitty/kitty.conf 
-nano .config/kitty/startup.session \
-nano .config/kitty/kitty.conf 
-nano .config/kitty/startup.session 
-htop
-cd .config
-nano starship.toml.pretzels 
-uname -r
-cd .config
-ll
-starship print-config > starship.toml
-nano starship.toml 
-mv starship.toml starship.default && touch starship.toml
-ll
-..
-cd
-nano .bash_aliases 
-man grep
-reload
-cd Downloads/
-reload
-nano .config/kitty/TokyoNightMoon.conf 
-nano .config/starship.toml.default
-reload
-nano .config/starship.toml.default
-nano .config/starship.toml.pretzels
-nano .config/tokyo-night.toml 
-cd .config
-nano starship.toml 
-xed starship.toml 
-nano starship.toml
-xed starship.toml 
-cd .config
-nano tokyo-night.toml 
-xed nerd-font-symbols.toml 
-xed starship.toml 
-xed starship.toml
-reload
-cd .config
-reload
-cd /usr/share
-ll
-cd python3
-cd dist/
-reload
-cd .config
-cd ~/.config
-> starship.toml
-starship print-config > starship.toml.default 
-nano starship.toml 
-starship print-config > starship.toml
-nano starship.toml 
-reload
-nano starship.toml 
-nano starship
-nano starship.toml 
-reload
-starship preset nerd-fonts -o > starship.toml.default 
-starship preset nerd-font-symbols -o > starship.toml.default 
-starship preset nerd-font-symbols -o starship.toml.default 
-nano starship.toml.default 
-mv starship.toml.default nerd-font-symbols.toml
-nano nerd-font-symbols.toml 
-cat starship.toml > starship.toml.pretzels
-cat nerd-font-symbols.toml > starship.toml 
-starship print-config > starship.toml 
-xed starship.toml
-xed starship.toml.pretzels 
-cat starship.toml.pretzels > starship.toml 
-nano nerd-font-symbols.toml 
-cd
+cdl after
+cdl ftplugin/
+mv netrw.lua netrw-og.lua
+fg
+cd ../..
+nvim .
 cd -
-cd .config/
-cd
-cd .config/
-nano starship.toml 
+mv telescope.lua telescope-og.lua 
+cd ../..
+nvim .
+xmod
+zls --version
+zig --version
+ziv version
+zig version
+clear
 reload
-mkdir .dotfiles
+alias
+zls --version
+reload
+clear
+nvim ~/.config/kitty/kitty.conf 
+nvim
+nvim ~/.config/kitty/kitty.conf 
+emacs -wm
+cowsay "olha meu papel de parede"
+nvim .config/kitty/kitty.conf 
+cowsay "olha meu papel de parede"
+xmod
+nvim .config/kitty/kitty.conf 
+xmod
+fastfetch 
+flatpak install flathub com.dec05eba.gpu_screen_recorder
+pwd
+ls
+mkdir Videos/gpurecorder
+cdl Videos/gpurecorder/
+cdl ..
+rm Video_2026-07-18_15-14-32.mp4 Video_2026-07-18_15-14-36.mp4 Video_2026-07-18_15-14-40.mp4 
+flatpak install flathub org.shotcut.Shotcut
+xmod
+ffprobe
+cd ..
+mv Videos/gpurecorder/ /mnt/HD/
+nvim .bash_aliases
+fg
+gio --help
+fzf
+whereis trash
+find
+find trash
+cdl .local/share/
+cdl Trash/
+cdl files/
+mv Video_2026-07-18_20-48-08.mp4 /mnt/HD/gpurecorder/Geometry\ Dash/ 
+ffprobe
+sudo apt install ffmpeg
+cd -
+cd /mnt/HD/gpurecorder/Geometry\ Dash/
+ffprobe Video_2026-07-18_20-48-08.mp4 
+ffprobe -v error -show_streams Video_2026-07-18_20-48-08.mp4 
+ffprobe -v error -select_streams a -show_entries stream=index,codec_name,channels:stream_tags=title Video_2026-07-18_20-48-08.mp4 
+xmod
+sudo apt install audacity
+xmod
+free -h
+journalctl -k -b
+clear
+xmod
+cd /mnt/HD/
+ls
 ll
+mkdir usb drive backup
+ls
+mv 'usb' 'usb drive backup'
+ls
+mv 'usb drive backup'/ usb\ drive\ backup/
+mv 'usb drive backup'/ usb\ drive\ backup
+mv /media/pretzels/THE\ GOAT/gVimPortable/ . & /media/pretzels/THE\ GOAT/Notepad++/ .
+ll
+mv /media/pretzels/THE\ GOAT/Notepad++/ .
+ll
+cd /media/pretzels/THE\ GOAT/
+ll
+cd
+clear
+mkdir /mnt/HD/windows\ items
+xmod
+cd /mnt/HD/windows\ items/
+ll
+rm OneDrive_1_7-24-2026.zip 
+mkdir videos/Capturas/
+mkdir ./videos/Capturas
+mkdir -h
+mkdir --help
+mkdir -p videos/Capturas
+cd videos/
+ll
+cd -
+mv OneDrive_1_7-24-2026/* videos/Capturas/
+cdl OneDrive_1_7-24-2026/
+cdl ../videos/Capturas/
+cdl Falling\ Up/
+rm ../../../OneDrive_1_7-24-2026/
+rmdir ../../../OneDrive_1_7-24-2026/
+cd ../../..
+ll
+xmod
+cd & clear
+clear
+cd 
+clear
+xmod
+clear
+xmod
+clear
+xmod
+sudo apt install mangohud
+xmod
+clear
+xmod
+echo $PATH
+nvim .bashrc
+reload
+echo $PATH
+minesweeper
+cdl random-software/
+chmod +x msxp-classic.AppImage 
+msxp-classic.AppImage 
+cd
+nvim .bash_aliases 
+nvim .bash_functions 
+nvim .bash_aliases 
+reload
+minesweeper
+javac Main.java
+javac Main.java 
+ls
+java Main 
+rm Main.class 
+ls
+java Main.java
+java Hello-World.java
+java Main.java
+node zzzCalc.js 
+git status
+node zzzCalc.js 
+kitty
+xmod
+java
+java --version
+javac --version
+clear
+java --version
+javac --version
+sudo apt install openjdk-21-jdk
+java --help
+clear
+cd random-software/
+ls
+unzip --version
+unzip Godot_v4.7.1-stable_linux.x86_64.zip 
+ls
+rm Godot_v4.7.1-stable_linux.x86_64.zip 
+minesweeper
+xmod
+node
+java Main.java
+clear
+java Main.java
+java Main.java FizzBuzz.java
+javac FizzBuzz.java
+java Main.java
+java Main.java FizzBuzz.java
+javac FizzBuzz.java
+java Main.java
+ls
+rm FizzBuzz.class
+java FizzBuzz.java Main.java
+java Main.java FizzBuzz.java
+javac Main.java FizzBuzz.java
+java Main
+ls
+rm *.class
+ls
+javac Main.java
+java Main
+ls
+rm *.class
+javac -d out *.java
+ls
+java -cp out Main
+cd ..
+javac -d out src/*.java
+java -cp out Main
+cd ../leetcode/
+cd ..
+ls
+cd practice/intToRoman/
+ls
+javac -d out Convert.java
+ls
+cdl out
+cd ..
+java Main.java
+cd ../dateVerifier/
+java Main.java
+xmod
+java --help
+javac --help
+java --help
+cd programming/javascript/leetcode/
+node intToRoman.js 
+cd
+fastfetch
+cd /mnt/HD/
+mkdir -p godot-projects/freeway/
+ls
+mv Material\ Freeway.zip godot-projects/freeway/ & cd godot-projects/freeway/
+ls
+unzipsfx 
+unzip Material\ Freeway.zip
+ls
+cd Material\ Freeway/
+ls
+cd ..
+rm Material\ Freeway/
+rm Material\ Freeway.zip 
+javac -d out Main.java
+java Main
+java -cd out Main
+java -cp out Main
+ls
+cdl out
+java Main
+cd ..
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+javac -d out Main.java
+java -cp out Main
+cd ..
+git status
+cd src
+git status
+cd ../..
+cd matrix/
+git add .
+git commit -m "this is my library for matrix operations in java. i can now create matrices, get and set the values, and add matrices together."
+cd
+mv text-adventure-game/ repos/
+cdl repos
+mv matrix/ matrix-library/
+cd matrix-library/
+ls
+git status
+javac -d out/ src/Main.java 
+javac -d out/
+javac -d out/ src/Main.java src/matrix/Matrix.java 
+java -cd out/Main.java
+java -cp out/Main.java
+ls
+cd out
+ls
+cd ..
+java -cp out/Main
+java -cp out
+java out/Main
+java out/Main.class
+java -cp out/Main.class
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git add .
+git commit -m "fixed a mistake in the constructor (oopsies\!)"
+git push
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+ls
+git add .
+git status
+git restore .
+git status
+git restore --staged .
+git status
+git rm out/
+git rm -r out/
+git rm -r --cached out/
+ls
+git add .
+git status
+git commit -m "modified the constructor method to copy the data instead of referencing it. added another constructor that allows creating empty matrices of known sizes. added a method to find the determinant of a matrix (really proud of this one. took me the whole day to figure out). and removed a folder from the remote."
+git push
+java Main.java
+xmod
+reload
+echo $PATH
+godot
+reload
+minesweeper 
+reload
+nvim
+clear
+mkdir repos/
+mv syn/ magyumon/ repos/
+cdl repos
+cd magyumon/
+cd ../syn
+cd ..
+mkdir matrix/
+cd matrix/ & mkdir src/
+rmdir src/
+cd matrix
+mkdir src/
+cd src/
+touch Main.java
+cd ..
+git init
+git branch -m main
+git status
+clear
+cd ..
+cd matrix-library/
+git remote add origin https://github.com/NeroNozaki/matrix-library
+git push -u origin main
+git push
+git push -u origin main
+clear
+git add .
+git commit -m "implemented multiplications and changed file structure"
+git push
+xmod
+python
+cd
+xmod
+XMOD
+xmod
+cd programming/
+git status
+git add .
+git commit -m "haven't committed here since may. added some stuff including java/"
+git push
+git pull
+git status
+git push
+cd
 clear
 fastfetch 
-reset
-fastfetch 
-reset && reload
-fastfetch 
-cd .config
+node
+xmod
+cd ~/programming/
+git status
+git add .
+git commit -m "started making a smart elevator dispatch system for practice. laid out the overall structure but the implementation will be very complicated"
+git push
+java Main.java
+javac Main.java
+java Main.java
+java Main
+javac Main.java
+java Main
+javac Main.java
+java Main
+clear
+javac Main.java
+java Main
+cd ..
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+git status
+git add .
+git status
+git commit -m "i don't really remember everything i did here but i can now make elevators and floors from the ElevatorSystem"
+git push
+cd ..
+javac -d out -sourcepath src/ Main.java
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "can now accept commands from user, make requests and assign those requests to floors"
+git push
+git push -u origin main
+xmod
+cd repos/
+git clone github.com/NeroNozaki/programming/
+git clone https://github.com/NeroNozaki/programming.git
+ls
+rm -rf programming
+git clone https://github.com/NeroNozaki/programming.git elevator-dispatch-system
+cd elevator-dispatch-system/
+git filter-repo java/practice/elevator-dispatch-system/
+git filter-repo ./java/practice/elevator-dispatch-system/
+git filter-repo --path ./java/practice/elevator-dispatch-system/
+git filter-repo --path java/practice/elevator-dispatch-system/
+ls
+java
+cdl java
+cdl practice
+cdl elevator
+git filter-repo --path .
+git filter-repo
+git filter-repo --path /./
+cd ..
+cd practice/
+mv elevator-dispatch-system/* ~/repos/elevator-dispatch-system/
+cd ../../..
+cdl elevator-dispatch-system/
+rm -rf java
+cdl src
+cd ..
+git status
+cd ~/programming
+git rm -rf java/practice/elevator-dispatch-system/
+git status
+git commit -m "moved elevator-dispatch-system to its own repo"
+git push
+cd ~/repos/elevator-dispatch-system/
+ls
+nvim .gitignore
+ls
+touch .gitignore
+ls
+git status
+ls
 ll
+nvim .gitignore 
+git add remote origin https://github.com/NeroNozaki/elevator-dispatch-system.git
+git remote add origin https://github.com/NeroNozaki/elevator-dispatch-system.git
+git remote -v
+git add .
+git status
+xmod
+cd ../matrix-library/
+git status
+xmod
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+cd ..
+javac -d out -sourcepath src/ src/Main.java
+cd ..
+cd
+java -cp out Main
+cd repos/elevator-dispatch-system/
+java -cp out Main
+javac -d out -sourcepath src/ src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "first half of the elevator sorting algorithm."
+git push
+xmod
+ll
+cdl emacs
+cdl .emacs.d/
+cdl share/
+cdl ..
+cdl elisp/
+cdl ..
+cdl ../programming/
+cdl templates
+java Main.java
+cd ..
+git status
+git add .
+git commit -m "second part of the elevator sorting algorithm. i implemented a sorting algorithm by myself from zero in order to sort the available elevators. surprisingly, it works."
+git push
+cd ../matrix-library/
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src/ Main.java
+javac -d out -sourcepath src Main.java
+javac -d out --sourcepath src Main.java
+javac -d out -sourcepath src ./Main.java
+javac -d out -sourcepath src Main.java
+cd ..
+javac -d out -sourcepath src Main.java
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git add .
+git rm src/Main.java
+git restore *
+git restore src/
+git status
+git restore --staged src/
+git sttaus
+git status
+git rm src/Main.java
+git rm src/Main.java --cached
+git status
+git add .
+git status
+git add .
+git status
+git commit "completely changed the structure due to specifications. added almost all operations i need. removed determinant() as that wasn't needed and was fairly unoptimized. i can add it again later if i care about making a version that doesn't suck. only thing left to do is to implement gaussian elimination"
+git commit -m "completely changed the structure due to specifications. added almost all operations i need. removed determinant() as that wasn't needed and was fairly unoptimized. i can add it again later if i care about making a version that doesn't suck. only thing left to do is to implement gaussian elimination"
+git push
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+xmod
+emacs --version
+python
+cdl .emacs.d/
+cdl snippets/
+cdl java-mode
+mv +new-snippet+ template
+ls
+cd & clear
+btop
+cd ../..
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+clear
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "implemented gauss elimination. that took a while."
+xmod
+fastfetch 
+sudo apt autoremove
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "made the gauss() method return a matrix instead of nothing"
+git push
+xmod
+sudo apt install krita
+sudo apt autoremove
+update
+clear & python
+python
+xmo
+xmod
+java Main.java
+cd ../../../
+cd ..
+git status
+git add .
+git commit -m "class stuff"
+git push
+btop
+xmod
+mkdir /mnt/HD/images/
+cd ../
+javac -d out -sourcepath src/aula6 src/aula6/Main.java
+javac -d out -sourcepath aula6 aula6/Main.java
+java -cp out Main
+javac -d out -sourcepath aula6 aula6/Main.java
+java -cp out Main
+javac -d out -sourcepath aula6 aula6/Main.java
+java -cp out Main
+cd ../..
+git status
+git add .
+git commit -m "class stuff"
+git push
+python
+xmod
+btop
+ls /dev/input/
+cdl /dev/
+file uinput
+sudo modprobe uinput
+cd /mnt/HD
+ll
+mkdir stuff
+cd /dev/uinput
+sudo nvim /etc/udev/rules.d/50-uinput.rules 
+sudo nano /etc/udev/rules.d/50-uinput.rules 
+pip install vgamepad
+pipx install vgamepad
+cd random-software/
+python controller-server.py 
+mkdir vgamepad-test
+mv controller-server.py vgamepad-test/
+cd vgamepad-test/
+ls
+python3 -m venv venv
+ll
+cdl venv
+cdl ..
+source venv/bin/activate
+source venv/bin/pyvenv.cfg
+cdl venv/bin
+activate
+chmod +x activate
+ll
+cd ../..
+source venv/bin/activate
+cd -
+activate
+venv
+pip install vgamepad
+cd ../..
+python controller-server.py 
+emacs --version
+xmod
+nano fan-script.sh
+fan-script.sh
+ls
+bash fan-script.sh 
+cat /sys/class/hwmon/hwmon5/fan1_target
+cat /sys/class/hwmon/hwmon5/pwm1
+ls -l /sys/class/hwmon/hwmon5/fan1_target /sys/class/hwmon/hwmon5/pwm1
+sudo apt install clangd
+btop
+pyright --version
+watch -n 0.2 'sensors dell_smm-isa-0000'
+fastfetch
+sensors
+cat /proc/acpi/ibm/fan 2>/dev/null || echo "No ThinkPad fan interface"
+sensors -u
+watch -n 0.5 sensors
+watch -n 0.2 'sensors dell_smm-isa-0000'
+for h in /sys/class/hwmon/hwmon*; do     echo "=== $h ($(cat "$h/name" 2>/dev/null)) ===";     ls "$h" | grep -E 'fan|pwm|temp'; done
+bash
+python FizzBuzz.py 
+cd ..
+git status
+git add .
+git commit -m "stuff"
+git push
+gcc fibonacci.c
+ls
+rm a.out 
+gcc -o fibonacci.c fibonacci
+gcc -o fibonacci fibonacci.c
+gcc fibonacci.c -o fibonacci
+ls
+gcc fibonacci.c
+ls
+rm a.out
+ls
+gcc fibonacci.c -o fibonacci
+ls
+fibonacci
+mv fibonacci fibonacci.out
+fibonacci.out
+./fibonacci.out 
+rm fibonacci.out
+gcc fibonacci.c -o fibonacci & ./fibonacci
+ls
+./fibonacci
+rm fibonacci 
+gcc fibonacci.c -o fibonacci && ./fibonacci
+cd ..
+git add .
+git commit -m "c stuff"
+git push
+xmod
+pip install basedpyright
+sudo apt install python3-basedpyright
+cd programming/python
+python --help
+pip --help
+python -m --help
+python -m venv
+python -m venv .
+ll
+cdl include
+size python3.12/
+du python3.12/
+cdl python3.12/
+cd ../..
+rm -rf bin/ include/ lib/ pyvenv.cfg 
+ll
+rm -rf lib64 
+ll
+xmod
+cd
+clear
+pipx ensurepath
+pipx install basedpyright
+basedpyright --version
+which basedpyright-langserver 
+xmod
+gcc --version
+cc --version
+which cc
+readlink -f "$(which cc)"
+which gcc
+readlink -f "$(which gcc)
+cdl /usr/bin/
+readlink -f "$(which gcc)"
+cdl /usr/bin/
+ll | grep "cc"
+cdl /etc/alternatives/
+cdl /usr/bin/ | grep "cc"
+cd
+clear
+gcc --help
+cdl programming/C/
+cd ..
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+java -cp test Main.java
+java test/Main.java
+javac -d out -sourcepath src src/Main.java
+java -cp test Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "fixed a bug in the elevator sorting algorithm"
+git push
+cd ../matrix-library
+javac -d out src/Main.java
+cd src/matrix
+javac Matrix.java
+ls
+javac Vector.java 
+javac LinearAlgebra.java 
+clear
+cd ../..
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out src/Main.java
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git add .
+git commit -m "changed the implementation of vectors to use column matrices under the hood and changed the formatting of displaying matrices to be nicer looking. finally, added the solve() method to the LinearAlgebra class. and added a README explaining how to use the library."
+git push
+cd ../../programming/C/
+cd the-c-programming-language/
+gcc input-and-output.c -o main && ./main
+gcc input-and-output.c -o main && ./main text.txt
+gcc input-and-output.c -o main && ./main
+gcc main.c -o main && ./main
+xmod
+gcc --help\
+gcc --help
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < text.txt
+gcc main.c -o main && cat text.txt | ./main
+test.py < text.txt
+python test.py < text.txt
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < text.txt
+python test.py text.txt 
+python test.py < text.txt 
+gcc main.c -o main && ./main < test2
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < test2
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < test2
+kill 2849
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < test3
+gcc main.c -o main && ./main
+gcc main.c -o main && ./main < test3
+cd
+cd repos/matrix-library/
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git fetch origin
+git status
+git branch -r
+git pull
+git switch bugfix/adjust-matrix-outputs 
+ls
+ll
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+git pull
+git stash
+git pull
+git status
+git switch main
+git status
+git stash
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git fetch origin
+git pull
+git status -sb
+git stash drop
+git status
+git status -sb
+git status --help
+git diff
+git add .
+git commit -m "removed a redudant vector creation in actuallySolve(). added a new constructor for an empty Vector"
+git push
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git fetch
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git add .
+git commit -m "fixed but that made it so the solutions to linear systems weren't properly assigned"
+git add .
+git commit -m "re added a comment i deleted by mistake"
+git push
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+javac -d out -sourcepath src src/Main.java
+java -cp out Main
+git status
+kill emacs
+btop
+cd programming/C/the-c-programming-language/
+echo 'hello\bworld\b' > test3
+ls
+cat test3
+nano test3
+rm test3
+printf 'hello\bworld\b' > test3
+cat test3
+printf 'there\tare\ttabs\tbetween\tthese\twords' > test3
+printf 'hello\bworld\b\nthere\tare\ttabs\tbetween\tthese\twords' > test3
+cat test3
+nvim test3
+nano test3
+cat
+cat test3
+python
+cd ..
+javac -d out -sourcepath src src/Main.java && java -cp out Main
+cd ../matrix-library/
+javac -d out -sourcepath src src/Main.java && java -cp out Main
+python src/test.py 
+javac -d out -sourcepath src src/Main.java && java -cp out Main
+python src/test.py 
+git status
+gcc main.c -o main && ./main < test
+gcc main.c -o main && ./main < test2
+gcc main.c -o main && ./main < test3
+gcc main.c -o main && ./main < test
+test.py < test
+python test.py < test
+gcc main.c -o main && ./main < test
+gcc main.c -o main && ./main < test2
+python test.py < test2
+gcc main.c -o main && ./main < test2
+python test.py < test2
+gcc main.c -o main && ./main < test3
+gcc main.c -o main && ./main < main.c
