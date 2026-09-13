@@ -69,6 +69,7 @@
 (add-hook 'diff-mode-hook #'outline-minor-mode)
 
 ;; Systems and General Purpose
+(add-hook 'zig-mode-hook #'hs-minor-mode)
 (add-hook 'c-mode-hook #'hs-minor-mode)
 (add-hook 'c++-mode-hook #'hs-minor-mode)
 (add-hook 'java-mode-hook #'hs-minor-mode)

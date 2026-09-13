@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: zig-template
+# key: template
+# --
+
+const std = @import("std");
+
+pub fn main() void {
+    std.debug.print("Hello World", .{});$0
+}

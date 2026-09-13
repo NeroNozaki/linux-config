@@ -28,6 +28,7 @@
   (yellow            "#ffd700")
   (green             "#16d102")
   (light-green       "#59fc1e")
+  (turquoise         "#4fd6be")
   (blue              "#128aed")
   (baby-blue         "#82aaff")
   (blue-gem          "#00E5FF")   ; Bright cyan/blue — extremely restrained
@@ -104,6 +105,10 @@
 
   (eglot-semantic-defaultLibrary (:foreground blue))
   (eglot-highlight-symbol-face   (:foreground white-dim))
+
+  ;; dired/terminal faces
+  (dired-symlink              (:foreground turquoise))
+  
   )
 
 
