@@ -13,5 +13,10 @@
 
 (evil-ex-define-cmd "ep" 'eval-print-last-sexp)
 
+(defun sum (a b)
+  (+ a b))
+
+(sum 34 35)
+
 (when 'eval-print-last-sexp
   (message "Function was evaluated, sir!"))

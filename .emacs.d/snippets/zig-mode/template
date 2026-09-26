@@ -4,7 +4,8 @@
 # --
 
 const std = @import("std");
+const libz = @import("libz/libz.zig");
 
 pub fn main() void {
-    std.debug.print("Hello World", .{});$0
+    $0
 }

@@ -25,8 +25,24 @@
  '(("\\_<[0-9]+\\_>" . 'math-number-face)))
 
 (font-lock-add-keywords
- 'c-mode
+ 'c-ts-mode
  '(("\\_<[0-9]+\\_>" . 'math-number-face)))
 
+
+(defface semantic-attribute-face
+  '((t :inherit default))
+  "face for attributes. fields of a class or struct.")
+(defface semantic-method-face
+  '((t :inherit default))
+  "face for methods. functions of a class or struct.")
+(defface semantic-function-face
+  '((t :inherit default))
+  "face for functions.")
+(defface semantic-function-declaration-face
+  '((t :inherit semantic-function-face))
+  "face for function declarations.")
+(defface semantic-default-library
+  '((t :inherit default))
+  "face for default/built in functions.")
 
 (provide 'my-faces)

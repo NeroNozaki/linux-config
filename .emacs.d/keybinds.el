@@ -30,6 +30,8 @@
   (evil-global-set-key 'motion "j" #'evil-next-visual-line)
   (evil-global-set-key 'motion "k" #'evil-previous-visual-line)
   (define-key evil-motion-state-map (kbd "0") #'evil-first-non-blank)
+  (define-key dired-mode-map (kbd "n") nil)
+  (evil-define-key 'normal eat-mode-map (kbd "p") #'term-paste)
 
   ;; Normal state
   (evil-global-set-key 'normal "n" #'evil-search-next)
@@ -83,9 +85,13 @@
     "s"     'save-buffer
     "k"     'kill-this-buffer
     "SPC"   'execute-extended-command
+
+    ;; magit
     "g"     'magit-status
+    "ef"    'with-editor-finish
 
     "eb"    'eval-buffer
+    "ep"    'eval-print-last-sexp
 
     ;; help
     "hf"    'describe-function
@@ -104,7 +110,8 @@
     "yv"    'yas-visit-snippet-file
     "yn"    'yas-new-snippet
 
-    "t"     '(lambda () (interactive) (split-window-below) (other-window 1) (eat))
+    "c"     'compile
+    "t"     #'my/eat
     "v"     'evil-window-vsplit
     "0"     'delete-window
     "1"     'delete-other-windows
@@ -120,7 +127,13 @@
   (define-key emacs-lisp-mode-map (kbd "C-c C-c") #'eval-buffer))
 (global-set-key (kbd "C--")       'zoom-in/out)
 (global-set-key (kbd "C-=")       'zoom-in/out)
-(global-set-key (kbd "C-z")       'suspend-emacs)
 (global-set-key (kbd "C-x C-'")   'comment-or-uncomment-region)
+
+(with-eval-after-load 'dired-mode
+  (define-key dired-mode-map (kbd "* $") #'dired-kill-subdir))
+
+;; Separating tab from C-i
+(define-key input-decode-map [(control ?i)] [control-i])
+(define-key input-decode-map [(control ?I)] [(shift control-i)])
 
 (provide 'keybinds)

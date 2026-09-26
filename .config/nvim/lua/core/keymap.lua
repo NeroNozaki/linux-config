@@ -17,11 +17,11 @@ vim.keymap.set("n", "<leader>b", ":ls<CR>")
 -- Command mode
 vim.keymap.set("n", "<leader><space>", ":")
 
--- Window navigation (matches your Emacs logic)
-vim.keymap.set("n", "<leader>wi", "<C-w>k")
-vim.keymap.set("n", "<leader>wj", "<C-w>h")
-vim.keymap.set("n", "<leader>wk", "<C-w>j")
-vim.keymap.set("n", "<leader>wo", "<C-w>l")
+-- Window navigation
+vim.keymap.set("n", "<leader>wk", "<C-w>k")
+vim.keymap.set("n", "<leader>wh", "<C-w>h")
+vim.keymap.set("n", "<leader>wj", "<C-w>j")
+vim.keymap.set("n", "<leader>wl", "<C-w>l")
 
 -- Splits
 vim.keymap.set("n", "<leader>v", ":vsplit<CR>")
@@ -32,7 +32,6 @@ vim.keymap.set("n", "<leader>0", "<C-w>c")
 vim.keymap.set("n", "<leader>1", "<C-w>o")
 
 -- Escape / cancel
-vim.keymap.set({ "n", "i", "v" }, "<leader>¥", "<Esc>")
 vim.keymap.set({ "n", "i", "v" }, "<Esc>", "<Esc>")
 
 

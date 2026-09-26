@@ -84,6 +84,11 @@
              kirigami-close-folds-except-current
              kirigami-close-folds))
 
+
+;; Magit
+(use-package magit)
+(use-package compat)
+
 ;; Getting rid of line numbers in certain modes
 (dolist (mode '(eat-mode-hook)
 	      )

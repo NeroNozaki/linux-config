@@ -1,0 +1,10 @@
+#!/bin/bash 
+zig build-exe \
+  -O ReleaseSmall \
+  -fstrip \
+  -ffunction-sections \
+  -fdata-sections \
+  --gc-sections \
+  -fno-unwind-tables \
+  -fsingle-threaded 
+  

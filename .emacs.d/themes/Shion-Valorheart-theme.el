@@ -3,7 +3,6 @@
 ;; Copyright (C) 2026  Pretzels
 
 ;; Author: Pretzels <pretzels@TheExperiment>
-;; Keywords: faces, games
 
 (require 'autothemer)
 
@@ -28,10 +27,12 @@
   (yellow            "#ffd700")
   (green             "#16d102")
   (light-green       "#59fc1e")
+  (lime              "#7efc2f")
   (turquoise         "#4fd6be")
   (blue              "#128aed")
   (baby-blue         "#82aaff")
   (blue-gem          "#00E5FF")   ; Bright cyan/blue — extremely restrained
+  (bright-blue       "#6cfcfc")
   (dark-gray         "#424242")   ; Inactive, borders
   (bright-gray       "#757575")
   (gray              "#757575")   ; Comments, line numbers
@@ -47,28 +48,19 @@
   (shadow                     (:foreground gray))
   (fringe                     (:background black))
   (line-number                (:foreground gray :background black))
-  (line-number-current-line   (:foreground gold :background black-alt :weight 'bold))  ; Gold only here for "detail"
+  (line-number-current-line   (:foreground gold :background black-alt :weight 'bold))
   (mode-line                  (:background dark-gray :foreground white :box '(:line-width 1)))
   (mode-line-highlight        (:background gold))
   (mode-line-inactive         (:background black-alt :foreground white-dim :box '(:line-width 1)))
-  (minibuffer-prompt          (:foreground red :weight 'bold))  ; Red prompts — strong Shion feel
-  (font-lock-keyword-face     (:foreground red :weight 'bold))
-  (font-lock-builtin-face     (:foreground red))
-  (font-lock-function-name-face (:foreground baby-blue :weight 'bold))
-  (font-lock-variable-name-face (:foreground baby-blue :inherit nil))
-  (font-lock-string-face      (:foreground green :slant 'italic))
-  (font-lock-comment-face     (:foreground gray :slant 'italic))
-  (font-lock-constant-face    (:foreground gold))
-  (font-lock-type-face        (:foreground gold))
-  (font-lock-number-face      (:foreground pink))
+  (minibuffer-prompt          (:foreground red :weight 'bold))
   (math-number-face           (:foreground pink))
   (math-operator-face         (:foreground white))
   (error                      (:foreground red :weight 'bold :underline t))
-  (success                    (:foreground blue-gem :weight 'bold))  ; Blue-gem only for success (rare positive accent)
+  (success                    (:foreground blue-gem :weight 'bold))
   (warning                    (:foreground gold :weight 'bold))
   (isearch                    (:background gold :foreground black :weight 'bold))
   (lazy-highlight             (:background highlight))
-  (link                       (:foreground blue-gem :underline t))  ; Blue only for links (gem-like sparkle)
+  (link                       (:foreground blue-gem :underline t))
   (yas-field-highlight-face   (:background highlight :foreground red))
 
   ;; Doom stuff?
@@ -79,8 +71,13 @@
   ;; Vertico / Marginalia / Completion
   (vertico-current            (:background highlight :foreground white-bright :weight 'bold))
   (vertico-match              (:foreground red))
+
   (completions-common-part    (:foreground red))
+
   (marginalia-documentation   (:foreground gray))
+  ;; (marginalia-file-priv-exec  (:foreground blue-gem))
+  ;; (marginalia-function        (:foreground baby-blue))
+
   (completions-annotations    (:foreground gray))
 
   ;; JS2-mode extras
@@ -91,6 +88,25 @@
   (org-level-2                (:foreground pink))
   (org-level-4                (:foreground orange))
 
+  ;; font-lock-faces
+  (font-lock-keyword-face       (:foreground red :weight 'bold))
+  (font-lock-builtin-face       (:foreground red))
+  (font-lock-function-name-face (:foreground baby-blue))
+  (font-lock-function-call-face (:foreground baby-blue :inherit font-lock-function-name-face))
+  (font-lock-variable-name-face (:foreground baby-blue :inherit nil))
+  (font-lock-string-face        (:foreground green :slant 'italic))
+  (font-lock-comment-face       (:foreground gray :slant 'italic))
+  (font-lock-constant-face      (:foreground gold))
+  (font-lock-type-face          (:foreground gold))
+  (font-lock-number-face        (:foreground pink))
+
+  ;; tree-sitter highlight faces
+  (semantic-attribute-face            (:foreground baby-blue))
+  (semantic-method-face               (:foreground orange :weight 'bold))
+  (semantic-function-face             (:foreground baby-blue))
+  (semantic-function-declaration-face (:inherit 'semantic-function-face :weight 'bold))
+  (semantic-default-library           (:foreground blue))
+
   ;; eglot faces
   (eglot-semantic-declaration (:foreground 'unspecified :weight 'bold))
   (eglot-semantic-static      (:foreground baby-blue))
@@ -100,7 +116,7 @@
   (eglot-semantic-enumMember  (:foreground baby-blue))
   (eglot-semantic-struct      (:foreground light-green))
   (eglot-semantic-method      (:foreground orange :weight 'bold))
-  ;; (eglot-semantic-property    (:foreground blue))
+  (eglot-semantic-property    (:foreground bright-blue))
   (eglot-semantic-modifier    (:foreground 'unspecified))
 
   (eglot-semantic-defaultLibrary (:foreground blue))
@@ -108,6 +124,7 @@
 
   ;; dired/terminal faces
   (dired-symlink              (:foreground turquoise))
+  (dired-directory            (:inherit font-lock-function-name-face :foreground baby-blue))
   
   )
 
