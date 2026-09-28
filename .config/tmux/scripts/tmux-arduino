@@ -1,0 +1,26 @@
+#!/bin/bash
+
+session="arduino-cli"
+dir="$HOME/programming/esp32/"
+
+
+if ! tmux has-session -t $session 2>/dev/null; then
+    tmux new-session -d -s $session -c "$dir"
+
+    tmux send-keys -t $session "nvim ." C-m
+    tmux new-window -t $session -c $dir
+
+    tmux new-window -t $session -c $dir
+fi
+
+
+tmux send-keys -t $session:2 'clear' C-m
+tmux send-keys -t $session:2 'arduino-cli board list' C-m
+
+tmux send-keys -t $session:3 'clear' C-m
+tmux send-keys -t $session:3 "arduino-cli monitor -p /dev/ttyUSB0 -c baudrate=115200" C-m
+tmux send-keys -t $session:3 C-c
+
+tmux select-window -t $session:2
+
+tmux attach -t $session

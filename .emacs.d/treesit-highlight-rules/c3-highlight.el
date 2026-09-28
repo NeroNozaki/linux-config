@@ -23,6 +23,15 @@
              '((func_header name: (ident) @semantic-function-declaration-face)
                )
 
+             :language 'c3
+             :override 'prepend
+             :feature 'c3-subscript
+             '((assignment_expr left: (subscript_expr argument: (ident_expr (ident))) @font-lock-variable-face)
+               (assignment_expr left: (subscript_expr index: (ident_expr (ident))) @font-lock-variable-face)
+               (assignment_expr left: (subscript_expr "[") @font-lock-bracket-face)
+               (assignment_expr left: (subscript_expr "]") @font-lock-bracket-face)
+               )
+
              ;; :language 'c3
              ;; :override t
              ;; :feature 'c3-functions

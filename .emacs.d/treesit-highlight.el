@@ -10,6 +10,7 @@
 (require 'java-highlight)
 (require 'c-highlight)
 (require 'zig-highlight)
+(require 'c3-highlight)
 
 (defun treesit-highlight-universal ()
   "Rules that should look the same in every language."

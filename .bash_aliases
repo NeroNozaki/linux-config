@@ -8,9 +8,9 @@ alias update='sudo apt update && apt upgrade'
 alias trash='gio trash'
 alias quit='exit'
 alias reload='source ~/.bashrc'
+alias tmux-reload='tmux source ~/.config/tmux/tmux.conf'
 
-alias nvim="/mnt/HD/random-software/nvim-linux-x86_64.appimage" 
-alias vim="/mnt/HD/random-software/nvim-linux-x86_64.appimage"
+alias dotfiles="cdl ~/.dotfiles"
 
 alias python="python3"
 alias zig-quiet="ZIG_PROGRESS=100 zig"
@@ -24,10 +24,6 @@ alias zig-build-minimal="zig build-exe \
   -fsingle-threaded"
 
 alias xmod="xmodmap ~/.xmodmap"
-
-alias minesweeper="/mnt/HD/random-software/msxp-classic.AppImage"
-alias godot="Godot_v4.7.1-stable_linux.x86_64"
-alias ghostty="Ghostty-1.3.1-x86_64.AppImage"
 
 # Add an "alert" alias for long running commands. Use like so:
 #   sleep 10; alert

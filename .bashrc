@@ -119,8 +119,6 @@ bind 'set completion-ignore-case on'
 
 
 eval "$(starship init bash)"
-export PATH=$PATH:"~/.zig/zig" # zig compiler
-export PATH=$PATH:"~/.zig/zls/zig-out/bin" # zls, zig lsp
-export PATH=$PATH:"/mnt/HD/random-software/"
-export PATH=$PATH:"~/.c3/c3/" # c3 compiler
+# how to export a directory to PATH. so you don't forget.
+# export PATH=$PATH:"~/path/to/directory/"
 

@@ -1,3 +1,2 @@
-require("core.keymap")
-require("core.options")
--- require("core.lazy")
+print("hello from core/init.lua")
+require('core.remap')

@@ -160,13 +160,13 @@
   :after corfu
   :init (add-to-list 'corfu-margin-formatters #'nerd-icons-corfu-formatter))
 
-(electric-pair-mode 0)
-;; (setq electric-pair-pairs '(
-;;                             (?\{ . ?\})
+(electric-pair-mode 1)
+ (setq electric-pair-pairs '(
+                             (?\{ . ?\})
 ;;                             (?\( . ?\))
-;;                             (?\[ . ?\])
+                             (?\[ . ?\])
 ;;                             (?\" . ?\")
-;;                             ))
+                             ))
 (add-hook 'js2-mode-hook
           (lambda ()
             (electric-indent-mode 1)))  ; Ensures proper indentation on newline

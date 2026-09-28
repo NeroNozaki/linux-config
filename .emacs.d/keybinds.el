@@ -110,6 +110,8 @@
     "yv"    'yas-visit-snippet-file
     "yn"    'yas-new-snippet
 
+    "C-t"   'transpose-chars
+
     "c"     'compile
     "t"     #'my/eat
     "v"     'evil-window-vsplit
